@@ -1,11 +1,11 @@
 div {
-    border: 1px solid black;
+    border: 0px none;
     padding: 25px 50px 25px 50px;
 	overflow: auto;
 
 }
 
-h1, h2 {
+h1, h2, li {
 	font-family: 'IBM Plex Mono', monospace;
 	}
 h1 {
@@ -13,7 +13,7 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	}
-h2 {
+h2, {
 	font-size: 35px;
 	text-align: left;
 	}
@@ -32,44 +32,6 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    border: 1px solid #ddd;
-}
-
-ul li {
-    padding: 8px 16px;
-    border-bottom: 1px solid #ddd;
-}
-
-ul li:last-child {
-    border-bottom: none
-}
-.list
-{font-weight: bolder;
-	color: black;
-	text-decoration: underline;
-	text-align left: ;
-	text-decoration: none;
-}
-.toprow
-{font-weight: bolder;
-	color: white;
-	text-decoration: underline;
-	text-align center;
-	text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    padding: 8px 16px;
-=}
-
-ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -80,7 +42,7 @@ ul {
 }
 
 li {
-    float: center;
+    float: left;
 }
 
 li a {
@@ -97,7 +59,7 @@ li a:hover {
 
 .active {
     background-color: #C0C0C0;
-
+}
 
 
 a:link {
@@ -108,6 +70,10 @@ a:hover {
     text-decoration: underline;
 }a
 
+a:visited {
+    color: black;
+}
+
 .center {
     padding: 70px 0;
     border: 3px solid green;
@@ -116,9 +82,23 @@ a:hover {
 .header
 {
     padding: 70px;
-    border: 100px solid #4CAF50;
+    border: 100px solid #white;
 }
 
 img {
+    float: right;
+    border: 3px solid black;
+
+}
+
+.first-column {
+    width: 24%;
+    padding: 0 0px 0 0;
     float: left;
+}
+
+.second-column {
+    width: 75%;
+    padding: 0 10px 0 0;
+    float: right;
 }
